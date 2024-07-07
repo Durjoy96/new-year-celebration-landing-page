@@ -44,5 +44,47 @@ body {
 /* main styles */
 main {
     max-width: 1320px;
-    margin: 50px auto 0;
+    margin: 0 auto;
+}
+
+/* offer section */
+.offer-container {
+    width: 802.9px;
+    height: 806px;
+    margin: 130px auto 0;
+    background-image: url("../images/New Year Photo.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.off-percentage {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer-container-subtitle {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 48px 0 0;
+}
+
+.offer-container-categories {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0 0;
 }
