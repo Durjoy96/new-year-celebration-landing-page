@@ -96,7 +96,7 @@ main {
 .midnight-party-container {
     width: 100%;
     height: 600px;
-    background-image: linear-gradient(90deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Group 70.png"), url("../images/Vectorrr.png");
+    background-image: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../images/Group 70.png"), url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: 85% center, center;
     border-radius: 16px;
@@ -147,4 +147,52 @@ main {
     border-radius: 8px;
     background-color: var(--primary);
     transition: 0.5s;
+}
+
+/* event details */
+.event-details-container {
+    margin: 120px 0 0;
+    width: 100%;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-details-content {
+    text-align: center;
+}
+
+.event-detail {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.event-detail span {
+    color: var(--primary);
+}
+
+.join-now-btn {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary);
+    padding: 1rem 2rem;
+    color: var(--banner-text);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 48px 0 0;
+    cursor: pointer;
 }
