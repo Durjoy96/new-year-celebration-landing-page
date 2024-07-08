@@ -307,3 +307,23 @@ main {
     font-weight: 500;
     margin: 28px 5.5rem 0;
 }
+
+/* portfolio styles */
+.portfolio {
+    margin: 120px 0 0;
+}
+
+.portfolio .title {
+    margin: 16px 0 22px;
+}
+
+.portfolio .description {
+    max-width: 896px;
+}
+
+.portfolio-img-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 24px;
+    margin: 48px 0 0;
+}
